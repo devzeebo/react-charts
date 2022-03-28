@@ -41,6 +41,7 @@
     "now-build": "yarn && cd www && yarn && yarn build",
     "start": "yarn watch",
     "format": "prettier {.,src,src/**,example/src,example/src/**,types}/*.{md,js,jsx,tsx,json} --write",
+    "prepublish": "yarn run build",
     "stats": "open ./stats.html",
     "typedoc": "typedoc"
   },
